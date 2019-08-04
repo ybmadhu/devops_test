@@ -16,7 +16,7 @@ sudo docker run --name my-postgres -e POSTGRES_PASSWORD=madhupost -d -p 5432:543
  
 postgres.jdbc.url=jdbc:postgresql://privateip_of_aws_instance:5432/postgres \
 postgres.jdbc.username=postgres \
-postgres.jdbc.password=madhupost \
+postgres.jdbc.password=madhupost 
 
  
  Dockerfile
