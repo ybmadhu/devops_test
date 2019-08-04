@@ -28,15 +28,15 @@ ENTRYPOINT java -DpropertyFileLocation=dbConnectionProperties.properties -jar db
 
 for building image
 -------------------
-docker build -t dbapp . \
+docker build -t dbapp . 
 
 running as a contianer
 ---------------------
 
-docker run -d --name dbapp -p 9998:9998 dbapp \
+docker run -d --name dbapp -p 9998:9998 dbapp 
 
-both containers should be running \
+both containers should be running 
 
-access the app using ip:9998 \
+access the app using ip:9998 
 
 
